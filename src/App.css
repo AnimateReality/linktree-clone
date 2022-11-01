@@ -1,0 +1,65 @@
+.App {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+.App .links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.App .links > a {
+    text-decoration: none;
+    text-align: center;
+    padding-block: 1.4rem;
+    color: inherit;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background: #eaecf0;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+.App .links > a:hover {
+    background-color: #d0d5dd;
+}
+@media (max-width: 375px) {
+    .App .links > a {
+        font-size: 1rem;
+   }
+}
+.App .links .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    padding-block: 1.5rem;
+}
+.App .links .icons img {
+    width: 1.5rem;
+}
+@media (max-width: 375px) {
+    .App .links {
+        padding-inline: 1rem;
+   }
+}
+.App footer {
+    padding: 3rem 7rem;
+}
+.App footer .content {
+    border-top: 1px solid #eaecf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.App footer .content > p {
+    font-weight: 400;
+    color: #667085;
+}
+@media (max-width: 767px) {
+    .App footer {
+        padding-inline: 1rem;
+   }
+}

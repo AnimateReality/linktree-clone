@@ -1,0 +1,63 @@
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+h2{
+    width: 1152px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+#profile__img {
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s;
+    position: relative;
+}
+
+
+.profile_btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px dashed;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.2s;
+    top: -10%;
+    right: 20%;
+}
+.profile .profile_btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+@media (max-width: 767px) {
+    .profile .profile_btn {
+        top: -10%;
+        right: 8%;
+   }
+}
+.profile > p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+.profile > #slack, .profile #twitter {
+    display: none;
+}
