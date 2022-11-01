@@ -39,7 +39,7 @@ function App() {
           Design Books
         </a>
         <div className="icons">
-          <a href="">
+          <a href="https://slack.com/">
             <img src={Slack} alt="slack"/>
           </a>
           <a href="https://github.com/AnimateReality" target="_blank" rel="noreferrer">
