@@ -40,10 +40,10 @@ function App() {
         </a>
         <div className="icons">
           <a href="">
-            <img src={Slack}/>
+            <img src={Slack} alt="slack"/>
           </a>
           <a href="https://github.com/AnimateReality" target="_blank" rel="noreferrer">
-          <img src={github}/>
+          <img src={github} alt="github"/>
           </a>
         </div>
       </section>
